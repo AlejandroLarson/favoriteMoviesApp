@@ -2,14 +2,22 @@
 <html lang="en">
 <%- include('partials/head.ejs') %>
 <style>
-    body {
+    #home-img-container{
         background-image: url("<%= image %>");
-        background-size: cover;
     }
-</style>
-<body>
-<%- include('partials/nav.ejs') %>
 
+</style>
+<body id = "home-body">
+<%- include('partials/nav.ejs') %>
+<main>
+    <div id = "home-img-container">
+        <div id = "home-text">
+            <h2>Welcome</h2>
+            <p> Explore the movies that have shaped my love for film. </p>
+        </div>
+
+    </div>
+</main>
 
     
     <%- include('partials/footer.ejs') %>

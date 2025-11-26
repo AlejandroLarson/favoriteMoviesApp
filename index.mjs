@@ -22,7 +22,7 @@ app.get('/', async (req, res) => {
     } catch (error) {
         console.error("Unsplash Background API error ", error);
         // fallback for background if api fetch fails
-        res.render("index", {"image" : "https://science.nasa.gov/wp-content/uploads/2023/09/stsci-01ga76rm0c11w977jrhgj5j26x-2.png"})
+        res.render("index", {"image" : "https://www.careersinfilm.com/wp-content/uploads/2022/05/filmmaker.jpg"})
     }
 
 });
